@@ -1,0 +1,13 @@
+{
+  "name": "rei-social-automator",
+  "buildCommand": "npm install",
+  "startCommand": "node index.js",
+  "envs": {
+    "ANTHROPIC_API_KEY": "SET_VIA_RAILWAY",
+    "GHL_API_KEY": "SET_VIA_RAILWAY",
+    "GHL_LOCATION_ID": "SET_VIA_RAILWAY",
+    "SOCIAL_CAMPAIGN_URL": "https://rei-social-campaign-production.up.railway.app",
+    "LIBRARY_URL": "https://sublime-friendship-production.up.railway.app",
+    "LIBRARY_PASSWORD": "Savannah050810!"
+  }
+}

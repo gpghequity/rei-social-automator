@@ -1,0 +1,16 @@
+{
+  "name": "rei-social-automator",
+  "version": "1.0.0",
+  "description": "Social media testing, monitoring, and auto-response automation for all platforms",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --version"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "node-cron": "^3.0.2",
+    "dotenv": "^16.3.1"
+  }
+}
